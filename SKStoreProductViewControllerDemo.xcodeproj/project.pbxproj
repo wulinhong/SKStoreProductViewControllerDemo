@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C2EF2951D7D010700424522 /* NSData+new.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2EF2941D7D010700424522 /* NSData+new.m */; };
+		9C57A6471D76DD0200C2F1F4 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C57A6461D76DD0200C2F1F4 /* CFNetwork.framework */; };
+		9C57A6491D76DD0B00C2F1F4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C57A6481D76DD0B00C2F1F4 /* QuartzCore.framework */; };
+		9C57A64B1D76DD1400C2F1F4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C57A64A1D76DD1400C2F1F4 /* CoreGraphics.framework */; };
+		9CC18FFB1D76BD6700AA7C3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC18FFA1D76BD6700AA7C3D /* main.m */; };
+		9CC18FFE1D76BD6700AA7C3D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC18FFD1D76BD6700AA7C3D /* AppDelegate.m */; };
+		9CC190011D76BD6700AA7C3D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC190001D76BD6700AA7C3D /* ViewController.m */; };
+		9CC190041D76BD6700AA7C3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CC190021D76BD6700AA7C3D /* Main.storyboard */; };
+		9CC190061D76BD6700AA7C3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CC190051D76BD6700AA7C3D /* Assets.xcassets */; };
+		9CC190091D76BD6700AA7C3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CC190071D76BD6700AA7C3D /* LaunchScreen.storyboard */; };
+		9CC190141D76BD6700AA7C3D /* SKStoreProductViewControllerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC190131D76BD6700AA7C3D /* SKStoreProductViewControllerDemoTests.m */; };
+		9CC1901F1D76BD6700AA7C3D /* SKStoreProductViewControllerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC1901E1D76BD6700AA7C3D /* SKStoreProductViewControllerDemoUITests.m */; };
+		9CC1902E1D76C88E00AA7C3D /* MyStoreProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC1902D1D76C88E00AA7C3D /* MyStoreProductViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9CC190101D76BD6700AA7C3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CC18FEE1D76BD6600AA7C3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CC18FF51D76BD6600AA7C3D;
+			remoteInfo = SKStoreProductViewControllerDemo;
+		};
+		9CC1901B1D76BD6700AA7C3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CC18FEE1D76BD6600AA7C3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CC18FF51D76BD6600AA7C3D;
+			remoteInfo = SKStoreProductViewControllerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9C2EF2931D7D010700424522 /* NSData+new.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+new.h"; sourceTree = "<group>"; };
+		9C2EF2941D7D010700424522 /* NSData+new.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+new.m"; sourceTree = "<group>"; };
+		9C57A6461D76DD0200C2F1F4 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		9C57A6481D76DD0B00C2F1F4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9C57A64A1D76DD1400C2F1F4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9C57A64F1D76E14800C2F1F4 /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reveal.framework; sourceTree = "<group>"; };
+		9CC18FF61D76BD6600AA7C3D /* SKStoreProductViewControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKStoreProductViewControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CC18FFA1D76BD6700AA7C3D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9CC18FFC1D76BD6700AA7C3D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9CC18FFD1D76BD6700AA7C3D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9CC18FFF1D76BD6700AA7C3D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9CC190001D76BD6700AA7C3D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9CC190031D76BD6700AA7C3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9CC190051D76BD6700AA7C3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9CC190081D76BD6700AA7C3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9CC1900A1D76BD6700AA7C3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CC1900F1D76BD6700AA7C3D /* SKStoreProductViewControllerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKStoreProductViewControllerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CC190131D76BD6700AA7C3D /* SKStoreProductViewControllerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKStoreProductViewControllerDemoTests.m; sourceTree = "<group>"; };
+		9CC190151D76BD6700AA7C3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CC1901A1D76BD6700AA7C3D /* SKStoreProductViewControllerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKStoreProductViewControllerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CC1901E1D76BD6700AA7C3D /* SKStoreProductViewControllerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKStoreProductViewControllerDemoUITests.m; sourceTree = "<group>"; };
+		9CC190201D76BD6700AA7C3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CC1902C1D76C88E00AA7C3D /* MyStoreProductViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyStoreProductViewController.h; sourceTree = "<group>"; };
+		9CC1902D1D76C88E00AA7C3D /* MyStoreProductViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyStoreProductViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9CC18FF31D76BD6600AA7C3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C57A64B1D76DD1400C2F1F4 /* CoreGraphics.framework in Frameworks */,
+				9C57A6491D76DD0B00C2F1F4 /* QuartzCore.framework in Frameworks */,
+				9C57A6471D76DD0200C2F1F4 /* CFNetwork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CC1900C1D76BD6700AA7C3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CC190171D76BD6700AA7C3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9CC18FED1D76BD6600AA7C3D = {
+			isa = PBXGroup;
+			children = (
+				9C57A64A1D76DD1400C2F1F4 /* CoreGraphics.framework */,
+				9C57A6481D76DD0B00C2F1F4 /* QuartzCore.framework */,
+				9C57A6461D76DD0200C2F1F4 /* CFNetwork.framework */,
+				9CC18FF81D76BD6700AA7C3D /* SKStoreProductViewControllerDemo */,
+				9CC190121D76BD6700AA7C3D /* SKStoreProductViewControllerDemoTests */,
+				9CC1901D1D76BD6700AA7C3D /* SKStoreProductViewControllerDemoUITests */,
+				9CC18FF71D76BD6600AA7C3D /* Products */,
+				9C57A64F1D76E14800C2F1F4 /* Reveal.framework */,
+			);
+			sourceTree = "<group>";
+		};
+		9CC18FF71D76BD6600AA7C3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CC18FF61D76BD6600AA7C3D /* SKStoreProductViewControllerDemo.app */,
+				9CC1900F1D76BD6700AA7C3D /* SKStoreProductViewControllerDemoTests.xctest */,
+				9CC1901A1D76BD6700AA7C3D /* SKStoreProductViewControllerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9CC18FF81D76BD6700AA7C3D /* SKStoreProductViewControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9CC18FFC1D76BD6700AA7C3D /* AppDelegate.h */,
+				9CC18FFD1D76BD6700AA7C3D /* AppDelegate.m */,
+				9CC18FFF1D76BD6700AA7C3D /* ViewController.h */,
+				9CC190001D76BD6700AA7C3D /* ViewController.m */,
+				9C2EF2931D7D010700424522 /* NSData+new.h */,
+				9C2EF2941D7D010700424522 /* NSData+new.m */,
+				9CC190021D76BD6700AA7C3D /* Main.storyboard */,
+				9CC190051D76BD6700AA7C3D /* Assets.xcassets */,
+				9CC190071D76BD6700AA7C3D /* LaunchScreen.storyboard */,
+				9CC1900A1D76BD6700AA7C3D /* Info.plist */,
+				9CC18FF91D76BD6700AA7C3D /* Supporting Files */,
+				9CC1902C1D76C88E00AA7C3D /* MyStoreProductViewController.h */,
+				9CC1902D1D76C88E00AA7C3D /* MyStoreProductViewController.m */,
+			);
+			path = SKStoreProductViewControllerDemo;
+			sourceTree = "<group>";
+		};
+		9CC18FF91D76BD6700AA7C3D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9CC18FFA1D76BD6700AA7C3D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9CC190121D76BD6700AA7C3D /* SKStoreProductViewControllerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				9CC190131D76BD6700AA7C3D /* SKStoreProductViewControllerDemoTests.m */,
+				9CC190151D76BD6700AA7C3D /* Info.plist */,
+			);
+			path = SKStoreProductViewControllerDemoTests;
+			sourceTree = "<group>";
+		};
+		9CC1901D1D76BD6700AA7C3D /* SKStoreProductViewControllerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9CC1901E1D76BD6700AA7C3D /* SKStoreProductViewControllerDemoUITests.m */,
+				9CC190201D76BD6700AA7C3D /* Info.plist */,
+			);
+			path = SKStoreProductViewControllerDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9CC18FF51D76BD6600AA7C3D /* SKStoreProductViewControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CC190231D76BD6700AA7C3D /* Build configuration list for PBXNativeTarget "SKStoreProductViewControllerDemo" */;
+			buildPhases = (
+				9CC18FF21D76BD6600AA7C3D /* Sources */,
+				9CC18FF31D76BD6600AA7C3D /* Frameworks */,
+				9CC18FF41D76BD6600AA7C3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKStoreProductViewControllerDemo;
+			productName = SKStoreProductViewControllerDemo;
+			productReference = 9CC18FF61D76BD6600AA7C3D /* SKStoreProductViewControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9CC1900E1D76BD6700AA7C3D /* SKStoreProductViewControllerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CC190261D76BD6700AA7C3D /* Build configuration list for PBXNativeTarget "SKStoreProductViewControllerDemoTests" */;
+			buildPhases = (
+				9CC1900B1D76BD6700AA7C3D /* Sources */,
+				9CC1900C1D76BD6700AA7C3D /* Frameworks */,
+				9CC1900D1D76BD6700AA7C3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CC190111D76BD6700AA7C3D /* PBXTargetDependency */,
+			);
+			name = SKStoreProductViewControllerDemoTests;
+			productName = SKStoreProductViewControllerDemoTests;
+			productReference = 9CC1900F1D76BD6700AA7C3D /* SKStoreProductViewControllerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9CC190191D76BD6700AA7C3D /* SKStoreProductViewControllerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CC190291D76BD6700AA7C3D /* Build configuration list for PBXNativeTarget "SKStoreProductViewControllerDemoUITests" */;
+			buildPhases = (
+				9CC190161D76BD6700AA7C3D /* Sources */,
+				9CC190171D76BD6700AA7C3D /* Frameworks */,
+				9CC190181D76BD6700AA7C3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CC1901C1D76BD6700AA7C3D /* PBXTargetDependency */,
+			);
+			name = SKStoreProductViewControllerDemoUITests;
+			productName = SKStoreProductViewControllerDemoUITests;
+			productReference = 9CC1901A1D76BD6700AA7C3D /* SKStoreProductViewControllerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9CC18FEE1D76BD6600AA7C3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = lh_w;
+				TargetAttributes = {
+					9CC18FF51D76BD6600AA7C3D = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = RNTPF5RA8W;
+					};
+					9CC1900E1D76BD6700AA7C3D = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 9CC18FF51D76BD6600AA7C3D;
+					};
+					9CC190191D76BD6700AA7C3D = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 9CC18FF51D76BD6600AA7C3D;
+					};
+				};
+			};
+			buildConfigurationList = 9CC18FF11D76BD6600AA7C3D /* Build configuration list for PBXProject "SKStoreProductViewControllerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9CC18FED1D76BD6600AA7C3D;
+			productRefGroup = 9CC18FF71D76BD6600AA7C3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9CC18FF51D76BD6600AA7C3D /* SKStoreProductViewControllerDemo */,
+				9CC1900E1D76BD6700AA7C3D /* SKStoreProductViewControllerDemoTests */,
+				9CC190191D76BD6700AA7C3D /* SKStoreProductViewControllerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9CC18FF41D76BD6600AA7C3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CC190091D76BD6700AA7C3D /* LaunchScreen.storyboard in Resources */,
+				9CC190061D76BD6700AA7C3D /* Assets.xcassets in Resources */,
+				9CC190041D76BD6700AA7C3D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CC1900D1D76BD6700AA7C3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CC190181D76BD6700AA7C3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9CC18FF21D76BD6600AA7C3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C2EF2951D7D010700424522 /* NSData+new.m in Sources */,
+				9CC1902E1D76C88E00AA7C3D /* MyStoreProductViewController.m in Sources */,
+				9CC190011D76BD6700AA7C3D /* ViewController.m in Sources */,
+				9CC18FFE1D76BD6700AA7C3D /* AppDelegate.m in Sources */,
+				9CC18FFB1D76BD6700AA7C3D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CC1900B1D76BD6700AA7C3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CC190141D76BD6700AA7C3D /* SKStoreProductViewControllerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CC190161D76BD6700AA7C3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CC1901F1D76BD6700AA7C3D /* SKStoreProductViewControllerDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9CC190111D76BD6700AA7C3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9CC18FF51D76BD6600AA7C3D /* SKStoreProductViewControllerDemo */;
+			targetProxy = 9CC190101D76BD6700AA7C3D /* PBXContainerItemProxy */;
+		};
+		9CC1901C1D76BD6700AA7C3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9CC18FF51D76BD6600AA7C3D /* SKStoreProductViewControllerDemo */;
+			targetProxy = 9CC1901B1D76BD6700AA7C3D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9CC190021D76BD6700AA7C3D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CC190031D76BD6700AA7C3D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9CC190071D76BD6700AA7C3D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CC190081D76BD6700AA7C3D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9CC190211D76BD6700AA7C3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9CC190221D76BD6700AA7C3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9CC190241D76BD6700AA7C3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = SKStoreProductViewControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SKStoreProductViewControllerDemo",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lz",
+					"-framework",
+					Reveal,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.linxun.linli.car;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		9CC190251D76BD6700AA7C3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = SKStoreProductViewControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SKStoreProductViewControllerDemo",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lz",
+					"-framework",
+					Reveal,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.linxun.linli.car;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		9CC190271D76BD6700AA7C3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SKStoreProductViewControllerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "the-one.SKStoreProductViewControllerDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKStoreProductViewControllerDemo.app/SKStoreProductViewControllerDemo";
+			};
+			name = Debug;
+		};
+		9CC190281D76BD6700AA7C3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SKStoreProductViewControllerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "the-one.SKStoreProductViewControllerDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKStoreProductViewControllerDemo.app/SKStoreProductViewControllerDemo";
+			};
+			name = Release;
+		};
+		9CC1902A1D76BD6700AA7C3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SKStoreProductViewControllerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "the-one.SKStoreProductViewControllerDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SKStoreProductViewControllerDemo;
+			};
+			name = Debug;
+		};
+		9CC1902B1D76BD6700AA7C3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SKStoreProductViewControllerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "the-one.SKStoreProductViewControllerDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SKStoreProductViewControllerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9CC18FF11D76BD6600AA7C3D /* Build configuration list for PBXProject "SKStoreProductViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CC190211D76BD6700AA7C3D /* Debug */,
+				9CC190221D76BD6700AA7C3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CC190231D76BD6700AA7C3D /* Build configuration list for PBXNativeTarget "SKStoreProductViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CC190241D76BD6700AA7C3D /* Debug */,
+				9CC190251D76BD6700AA7C3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CC190261D76BD6700AA7C3D /* Build configuration list for PBXNativeTarget "SKStoreProductViewControllerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CC190271D76BD6700AA7C3D /* Debug */,
+				9CC190281D76BD6700AA7C3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CC190291D76BD6700AA7C3D /* Build configuration list for PBXNativeTarget "SKStoreProductViewControllerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CC1902A1D76BD6700AA7C3D /* Debug */,
+				9CC1902B1D76BD6700AA7C3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9CC18FEE1D76BD6600AA7C3D /* Project object */;
+}
